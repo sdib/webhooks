@@ -1,0 +1,29 @@
+{
+    "apis": [
+        {
+            "appName": "Application Name",
+            "csp": "Azure / AWS",
+            "env": "dev/int/uat/prd",
+            "region": "north-europe / west-europe / central-europe",
+            "prefix": "/",
+            "prefixRewrite": "/myApi",
+            "verbs": [
+                "GET",
+                "POST",
+                "PUT",
+                "DELETE",
+                "HEAD",
+                "COMMIT",
+                "OPTIONS"
+            ],
+            "swaggerUrl": "https://my_swagger_url",
+            "apiVersion": "v2",
+            "hostName": "mySSLHostname",
+            "backends": [
+                "backend-1:port",
+                "backend-2:port"
+            ],
+            "healthCheckURL": "/health"
+        }
+    ]
+}
