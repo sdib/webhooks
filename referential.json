@@ -1,7 +1,7 @@
 {
     "apis": [
         {
-            "appName": "Application Name",
+            "appName": "Application Name modified",
             "csp": "Azure / AWS",
             "env": "dev/int/uat/prd",
             "region": "north-europe / west-europe / central-europe",
